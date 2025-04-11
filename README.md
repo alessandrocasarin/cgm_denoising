@@ -25,7 +25,10 @@ The main steps of the analysis are:
 
 ## Files
 - main_script.m: Main script performing the full analysis.
-
+- glucose_data_fm.mat: Contains the vectors $t_{s}$ and $y_{s}$, representing CGM data:  
+  - $y_{s}$: Glucose measurements (in mg/dL) from a Type 1 diabetic patient.
+  - $t_{s}$: Corresponding time values (in minutes).
+  - Measurements are corrupted by additive white noise with zero mean and variance σ² = 9 mg²/dL².
 
 ## Requirements
 - MATLAB
